@@ -1,0 +1,68 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: #00a5db;
+}
+
+.col {
+	background-color: #00a5db;
+}
+
+.shadow {
+  -moz-box-shadow:    3px 3px 5px #24687e;
+  -webkit-box-shadow: 3px 3px 5px #24687e;
+  box-shadow:         3px 3px 5px #24687e;
+}
+
+.teaserText {
+	display: flex;
+ 	justify-content: center;
+ 	flex-direction: column;
+	color: white;
+}
+
+.teaserButton {
+    align-self: center;
+    width: min-content;
+}
+
+.goForIt {
+	font-family: 'Roboto', 'Helvetica', sans-serif;
+	text-align: center;	
+	color: white;
+}
+
+p.maintitle {
+	font-family: 'Amatic SC', cursive;
+	font-size: 4em;
+	text-align: center;
+}
+
+p.subtitle {
+	font-family: 'Roboto', 'Helvetica', sans-serif;
+	font-size: 1.6em;
+	text-align: center;
+}
+
+.teaserPic {
+	align-self: baseline;
+ 	justify-content: center;
+ 	flex-direction: column;
+	padding-top: 20px;
+}
+
+.btn-secondary {
+  background-color: white;
+  border-color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #00a5db;
+  border-color: white;
+  border-width: 1px;
+  cursor: pointer;
+}
