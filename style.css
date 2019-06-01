@@ -31,9 +31,10 @@ body {
 }
 
 .goForIt {
-	font-family: 'Arial', 'Helvetica', sans-serif;
+	font-family: 'Roboto', 'Helvetica', sans-serif;
 	text-align: center;	
 	color: white;
+	font-weight: 100;
 }
 
 p.maintitle {
@@ -43,17 +44,17 @@ p.maintitle {
 }
 
 p.subtitle {
-	font-family: 'Roboto Thin', 'Helvetica', sans-serif;
-	font-size: 1.6em;
+	font-family: 'Roboto', 'Helvetica', sans-serif;
+	font-size: 1.5em;
 	text-align: center;
+	font-weight: 100;
 }
 
 .teaserPic {
-	align-self: baseline;
- 	justify-content: center;
- 	flex-direction: column;
 	padding-top: 20px;
-}
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-around;}
 
 .btn-secondary {
   background-color: white;
